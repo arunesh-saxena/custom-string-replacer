@@ -1,0 +1,25 @@
+{
+  "name": "string_subsitute",
+  "version": "1.0.0",
+  "description": "string subsitute replacement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "console",
+    "theme",
+    "color",
+    "console"
+  ],
+  "author": "@runesh saxena",
+  "license": "ISC",
+  "engines": {
+    "node": ">=10.X"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {}
+}
