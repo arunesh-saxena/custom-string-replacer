@@ -19,5 +19,3 @@ const stingSub = (txt, identifier, ...args) => {
     }
     return finalTxt;
   };
-  
-  
