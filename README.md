@@ -35,7 +35,7 @@ const metaTitleSub = stingSub(metaTitle, {
 <script>
         onload = () => {
             const metaTitle = "@pdpTitle by @pdpBrand | Some time hello";
-            const result = stingSub(metaTitle, {
+            const result = stingSub.stingSub(metaTitle, {
                 "@pdpTitle": "ProductTile",
                 "@pdpBrand": "MobileExample Inc."
             });
