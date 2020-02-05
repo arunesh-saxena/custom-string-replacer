@@ -1,15 +1,39 @@
 # cutstom-string-substitute
 Cutstom string substitute 
 
-<!-- how to use  -->
-import stingSub from 'src/index.js
+## npm package
+https://www.npmjs.com/package/string_subsitute
+## git repository 
+https://github.com/arunesh-saxena/cutstom-string-substitute"
+## how to use  in node 
 
-stingSub(`hello @K @K`, '@K', 'kavi');
+dir example
+```
+const stingSub = require('../index');
+
+stingSub('hello @name @sirname I am happy to see you', {
+    '@name': 'Kavi',
+    '@sirname': 'Saxena'
+})
   
-stingSub([1212], '@name', 'kavi', 'saxena');
+stingSub('hello @name. I am happy to see you @name', '@name', 'kavi')
   
 const metaTitle = "@pdpTitle by @pdpBrand | Some time hello";
-  stingSub(metaTitle, {
-    "@pdpTitle": "kavi",
-    "@pdpBrand": "saxena"
+
+const metaTitleSub = stingSub(metaTitle, {
+    "@pdpTitle": "ProductTile",
+    "@pdpBrand": "MobileExample Inc."
 });
+```
+
+## dev command
+
+```npm run dev```
+for development purpose
+
+```npm run example```
+to see example
+
+```npm run build```
+will create the bundle at root folder
+You can change it by webpack
