@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom string subsitiue</title>
+    <script src="../lib/index.js"></script>
+</head>
+
+<body onload="onload()">
+    open console and test
+    <script>
+        onload = () => {
+            const metaTitle = "@pdpTitle by @pdpBrand | Some time hello";
+            const result = stingSub.stingSub(metaTitle, {
+                "@pdpTitle": "ProductTile",
+                "@pdpBrand": "MobileExample Inc."
+            });
+            console.log(result);
+        }
+
+    </script>
+</body>
+
+</html>

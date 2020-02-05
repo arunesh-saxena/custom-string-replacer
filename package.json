@@ -1,0 +1,34 @@
+{
+  "name": "string_subsitute",
+  "version": "1.2.3",
+  "description": "string subsitute replacement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "example": "nodemon example/index.js",
+    "build": "rm -rf dist && webpack --mode=production --config webpack/webpack-back.config.js",
+    "build:front": "rm -rf lib && webpack --mode=production --config webpack/webpack-front.config.js"
+  },
+  "keywords": [
+    "string",
+    "substitute",
+    "string",
+    "tempating"
+  ],
+  "author": "@runesh saxen@",
+  "license": "ISC",
+  "engines": {
+    "node": ">=10.X"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arunesh-saxena/cutstom-string-substitute"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {}
+}
