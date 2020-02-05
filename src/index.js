@@ -1,2 +1,3 @@
-import stingSub  from './utils';
-export default stingSub;
+import stingSub from './utils';
+
+export default { stingSub };

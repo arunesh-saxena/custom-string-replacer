@@ -18,5 +18,5 @@ const stingSub = (txt, identifier, ...args) => {
     }
     return finalTxt;
   };
-
 export default stingSub;
+

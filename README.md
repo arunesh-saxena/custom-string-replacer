@@ -26,6 +26,24 @@ const metaTitleSub = stingSub(metaTitle, {
 });
 ```
 
+## how to using in browser
+```
+<head>
+    <script src=".../node_modules/string_subsitute/lib/index.js"></script>
+</head>
+<body onload="onload()">
+<script>
+        onload = () => {
+            const metaTitle = "@pdpTitle by @pdpBrand | Some time hello";
+            const result = stingSub(metaTitle, {
+                "@pdpTitle": "ProductTile",
+                "@pdpBrand": "MobileExample Inc."
+            });
+        }
+    </script>
+</body>
+```
+
 ## dev command
 
 ```npm run dev```
@@ -37,3 +55,6 @@ to see example
 ```npm run build```
 will create the bundle at root folder
 You can change it by webpack
+
+```npm run build:front```
+will create the bundle in lib/index.js
