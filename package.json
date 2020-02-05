@@ -1,6 +1,6 @@
 {
   "name": "string_subsitute",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "string subsitute replacement",
   "main": "index.js",
   "scripts": {

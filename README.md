@@ -9,7 +9,7 @@ https://github.com/arunesh-saxena/cutstom-string-substitute"
 
 dir example
 ```
-const stingSub = require('../index');
+const stingSub = require('string_subsitute');
 
 stingSub('hello @name @sirname I am happy to see you', {
     '@name': 'Kavi',

@@ -1,4 +1,4 @@
-const stingSub = require('../index');
+const stingSub = require('string_subsitute');
 
 const test1 =
     stingSub('hello @name @sirname I am happy to see you', {
