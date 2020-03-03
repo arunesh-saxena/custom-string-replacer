@@ -11,9 +11,9 @@ dir example
 ```
 const stingSub = require('string_subsitute');
 
-stingSub('hello @name @sirname I am happy to see you', {
+stingSub('hello @name @surname I am happy to see you', {
     '@name': 'Kavi',
-    '@sirname': 'Saxena'
+    '@surname': 'Saxena'
 })
   
 stingSub('hello @name. I am happy to see you @name', '@name', 'kavi')
