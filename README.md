@@ -1,10 +1,10 @@
-# cutstom-string-substitute
-Cutstom string substitute 
+# custom-string-substitute
+Custom string substitute 
 
 ## npm package
 https://www.npmjs.com/package/string_subsitute
 ## git repository 
-https://github.com/arunesh-saxena/cutstom-string-substitute"
+https://github.com/arunesh-saxena/custom-string-substitute
 ## how to use  in node 
 
 dir example
